@@ -73,6 +73,51 @@ a{
     display: table-cell;
     vertical-align: middle;
 }
+
 .align-center {
     text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.inline {
+    display: inline;
+}
+
+.larger-font {
+    font-size: x-large;
+}
+
+.two-columns-layout,
+.three-columns-layout {
+    width:100%;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+.column,
+.two-columns {
+    float:left;
+}
+
+.column .box {
+    margin: 0 10px;
+}
+
+.two-columns-layout .column {
+    width: 50%;
+}
+
+.three-columns-layout .column {
+    width: 33.33%;
+}
+
+.three-columns-layout .two-columns {
+    width: 66.66%;
 }

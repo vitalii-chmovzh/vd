@@ -14,7 +14,7 @@ $(document).ready(function(){
   var feedBack = $(".feed_back_form_wrap_content");
   var h = $(window).height();
 
-  var im = 0
+  var im = 0;
   var imTwo = 0;
   var imThree = 0;
   var imFour = 0;
@@ -24,7 +24,7 @@ $(document).ready(function(){
   $('.moved').css('width', inputWrapWidth);
   $('.form_input_animate').css('width', inputWidth);
 
-  setInterval (function() {
+  /*setInterval (function() {
       element.css({'background-position':im + 'px'})
       im -= 1;}, 50);
   
@@ -47,7 +47,7 @@ $(document).ready(function(){
     setInterval (function() {
       feedBack.css({'background-position':feedB + 'px'})
       feedB += 1;}, 30);
-
+*/
 
 
     $('.open_menu').click(function(){

@@ -49,6 +49,7 @@ h2{
 	background: url(../images/header/sun.png);	
 	position: absolute;
 	z-index: 2;
+    opacity: 0.5;
 }
 .header_animation_4{
 	width: 100%;
@@ -76,8 +77,8 @@ h2{
 .header_logo{
 	width: 180px;
 	height: 57px;
-	margin: 25px 0 0 20px;
-	float: left;
+	margin: 40px auto 0 auto;
+	display:block;
 	background: url(../images/Logo.png) no-repeat;
 }
 .header_nav{
@@ -97,22 +98,23 @@ h2{
 }
 .header_content{
 	max-width: 1180px;
-	height: 647px;
 	margin: 0 auto;
     z-index: 5;
     position: relative;
+    overflow: auto;
 }
 .header_columns{
-	width: 50%;
+	width: 100%;
 	float: left;
-	text-align: left;
-	padding: 210px 160px 0 160px;
+	padding: 130px 20px 0 20px;
 	box-sizing: border-box;
+    text-align: center;
 }
-.header_columns h2{
-	font-size: 60px;
+.header_columns h1 {
+	font-size: 36px;
     font-family: 'bpreplaybold';
     padding-bottom: 20px;
+    color: #434343;
 }
 .header_columns p{
 	line-height: 22px;
@@ -138,6 +140,91 @@ h2{
 .header_btn:hover{
 	background-color: #62D030;
 }
+/* Calculator area */
+.header-calculator {
+    position: relative;
+    z-index: 6;
+    max-width: 1170px;
+    margin: 65px auto 0 auto;
+}
+
+.header-calculator .radio label {
+    font-family: 'HelveticaNeueCyr-Light';
+    color: #434343;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.calculator-price h3 {
+    font-family: 'HelveticaNeueCyr-Light';
+    font-size: 24px;
+    color: #333;
+}
+
+.calculator-price h3 span {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.calculator-inputs {
+    width: 440px;
+    margin: 20px auto 0 auto;
+    font-family: 'HelveticaNeueCyr-Light';
+    color: #333;
+    font-size: 24px;
+}
+
+.calculator-inputs .total {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.calculator-inputs input[type=number] {
+    -webkit-appearance: none;
+    border: none;
+    border-bottom: 2px solid #333;
+    height: 40px;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    padding-left: 10px;
+    font-family: 'HelveticaNeueCyr-Light';
+    width: 50px;
+    text-align: center;
+    outline:none;
+}
+
+.calculator-inputs input[type=text],
+.calculator-inputs input[type=email] {
+    -webkit-appearance: none;
+    border: 1px solid #AFAFAF;
+    height: 45px;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: 'HelveticaNeueCyr-Light';
+    width: 100%;
+    box-shadow: inset 0px 3px 0px 0 rgba(0,0,0,.15);
+    outline:none;
+    box-sizing: border-box;
+}
+
+.calculator-buttons {
+    margin-top:20px;
+}
+
+a.button,
+a.button:visited {
+    padding: 11px 0px;
+    width:440px;
+    display: inline-block;
+    background: #00B300;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'HelveticaNeueCyr-Light';
+    font-weight: bold;
+}
+
+/* Calculator area end */
 .section_title{
 	width: 100%;
 	height: auto;
