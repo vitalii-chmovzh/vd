@@ -1,0 +1,106 @@
+@media screen and (max-width: 1024px){
+h2 {
+    font-size: 54px;
+}
+.header_columns h2 {
+    font-size: 50px;
+}
+.scale_text_wrap h3{
+    font-size: 36px;
+}
+.header_nav {
+    padding-right: 30px;
+}
+.header_nav ul li {
+    margin-left: 25px;
+}
+.header_columns {
+    text-align: center;
+    padding: 240px 100px 0 100px;
+}
+.scale_text_wrap {
+    padding-top: 180px;
+}
+.work_block_wrap {
+    height: 400px;
+}
+.work_block_1,
+.work_block_2,
+.work_block_3,
+.work_block_4,
+.work_block_5,
+.work_block_6{
+    height: 400px;
+}
+.more_projects_btn{
+    margin-bottom: 0;   
+}
+.slider_content {
+    max-width: 850px;
+}
+.services_btn {
+    padding: 10px 25px;
+    bottom: 70px;
+}
+.sevices_columns {
+    width: 33%;
+    height: 500px;
+    padding: 0 30px;
+}
+/*********** about us **************/
+.section_title {
+    margin-top: 50px;
+}
+.about_text_column_right_content {
+    padding: 50px 20px 0 64px;
+}
+.about_text_column_left_content {
+    padding: 50px 64px 0 20px;
+}
+.about_columns_img_right,
+.about_columns_img_left {
+    height: 470px;
+}
+.about_text_column_left_content p, 
+.about_text_column_right_content p{
+    line-height: 18px;
+}
+/*********** design **************/
+.services_design_btn {
+    width: 20%;
+    margin-right: 20px;
+}
+.services_design_text{
+    width: 45%;
+}
+.design_images_columns_1_wrapper,
+.design_images_columns_2_wrapper,
+.design_images_columns_3_wrapper{
+    height: 450px;
+}
+.design_text_wrap h2 {
+    font-size: 34px;
+}
+.design_text_wrap p {
+    font-size: 12px;
+}
+.design_text_wrap {
+    padding-top: 190px;
+}
+/***** html 5 mobile apps *****/
+.two_columns_row,
+.html_page_text_block{
+    padding: 20px;
+    box-sizing:border-box;
+}
+.project_screen_columns_1,
+.project_screen_columns_2{
+    height: 650px;
+}
+/********** works page ********/
+.project_block_wrapper{
+    height: 400px;
+}
+
+}
+

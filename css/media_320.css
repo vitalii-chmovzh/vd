@@ -1,0 +1,69 @@
+@media screen and (max-width: 320px){
+h2 {
+    font-size: 34px;
+}
+.header_columns h2 {
+    font-size: 36px;
+}
+.header_columns p {
+    font-size: 12px;
+}
+.header_columns {
+    padding: 115px 25px 0 25px;
+}
+.header_btn {
+    width: 30%;
+}
+.contact_input_section{
+    width: 290px;
+}
+.contact_input_section input{
+    width: 80%;
+}
+.form_submit_btn{
+    margin-right: 10px;
+}
+.slider_content {
+    max-width: auto;
+}
+.contact_input_section_slide {
+    width: 90%;
+}
+/*********** about us **************/
+.about_columns_img_left,
+.media{
+    height: 220px;
+}
+.close_form {
+    right: 10px;
+}
+/********** works_project ************/
+.project_screen_columns_2,
+.project_screen_columns_1 {
+    height: 400px;
+}
+.project_nav {
+    font-size: 12px;
+}
+.project_slider_animate, 
+.project_slider_wrapper {
+    height: 200px;
+}
+.next{
+    margin-right: 10px;
+    height: 200px;
+}
+.prev{
+    margin-left: 10px;
+    height: 200px;
+}
+.bxslider_1 {
+    margin-top: 30px;
+}
+.bxslider_1 img {
+    width: 68% !important;
+    height: 144px;
+}
+
+
+}

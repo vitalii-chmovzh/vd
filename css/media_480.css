@@ -1,0 +1,197 @@
+@media screen and (max-width: 480px){
+/* html {
+      -webkit-text-size-adjust: none;
+   }*/
+h2 {
+    font-size: 36px;
+}
+.work_block_wrap{
+    height: 450px;
+    width: 100%;
+}
+.work_block_1, 
+.work_block_2,
+.work_block_3,
+.work_block_4,
+.work_block_5,
+.work_block_6{
+    height: 100%;
+}
+.scale_text_wrap {
+    padding-top: 210px;
+}
+.scale_text_wrap h3 {
+    font-size: 38px;
+}
+.scale_text_wrap p {
+    font-size: 16px;
+}
+.benefits_columns{
+    width: 100%;
+    padding: 20px 80px;
+}
+.center {
+    padding-left: 0;
+}
+.header_columns h2 {
+    font-size: 44px;
+}
+.header_columns {
+    padding: 110px 50px 0 50px;
+}
+.header_btn {
+    width: 30%;
+}
+.contact_input_section {
+    height: 110px;
+}
+.contact_input_section_slide{
+    width: 100%;
+    height: 45%;
+}
+.form_submit_btn_prev{
+    width: 49%;
+    background: url(../images/form_btn_prev.png) no-repeat center right;
+}
+.form_submit_btn_next{
+    width: 49%;
+    background: url(../images/form_btn_next.png) no-repeat center left;
+}
+.form_submit_btn_next.btn_new_bg {
+    background: url(../images/btn_send.png) no-repeat center left;
+}
+.form_submit_btn{
+    background: url(../images/form_btn.png) no-repeat right 10px;
+    background-size: contain;
+}
+.footer_columns{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.sevices_columns {
+    height: 500px;
+    padding: 0 50px;
+}
+.tw,
+.in,
+.fb{
+    text-align: center;
+    margin: 0 20px;
+    float: none;
+}
+.reserved{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.social{
+    width: 100%;
+    text-align: center;
+    float: none;
+    height: 50px;
+    line-height: 50px;
+
+}
+/*********** about us **************/
+.about_columns_img_left,
+.media{
+    height: 300px;
+}
+.about_text_column_left_content p,
+.about_text_column_right_content p {
+    font-size: 12px;
+    line-height: 18px;
+}
+/*********** design **************/
+.design_images_columns_1_wrapper,
+.design_images_columns_2_wrapper,
+.design_images_columns_3_wrapper {
+    height: 450px;
+    width: 100%;
+}
+.design_text_wrap {
+    padding-top: 205px;
+}
+.design_text_wrap h2 {
+    font-size: 32px;
+}
+.design_text_wrap p {
+    font-size: 14px;
+}
+.input_block{
+    height: 40px;
+}
+.input_block input{
+    width: 100%;
+    padding: 0 15px;
+    height: 100%;
+}
+.input_block {
+    width: 100%;
+    padding-bottom: 10px;
+}
+.close_form {
+    right: 10px;
+}
+.message textarea {
+    height: 70px;
+}
+.services_input{
+    padding-bottom: 10px;
+}
+.services_input select {
+    height: 40px;
+
+}
+.form_btn {
+    height: 30px;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+/********** works_project ************/
+.project_screen_columns_2,
+.project_screen_columns_1 {
+    height: 600px;
+}
+.full_margin{
+    margin: 50px 0 !important;
+}
+.link_in_site {
+    margin-top: 30px;
+}
+.project_slider_animate, 
+.project_slider_wrapper {
+    height: 300px;
+}
+.next{
+    margin-right: 20px;
+    height: 300px;
+}
+.prev{
+    margin-left: 20px;
+    height: 300px;
+}
+
+/************** works page ****/
+.project_block_wrapper {
+    width: 100%;
+    height: 450px;
+}
+.project_block > .work_block_1_text h3{
+    padding-top: 235px;
+    font-size: 34px;
+}
+.bxslider_1 {
+    margin-top: 50px;
+}
+.bxslider_1 img {
+    width: 70% !important;
+    height: 200px;
+}
+.feed_back_form_content {
+    height: 435px;
+}
+}

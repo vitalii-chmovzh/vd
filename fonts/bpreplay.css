@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'bpreplayregular';
+    src: url('bpreplay.eot');
+    src: url('bpreplay.eot?#iefix') format('embedded-opentype'),
+         url('bpreplay.woff') format('woff'),
+         url('bpreplay.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bpreplaybold';
+    src: url('bpreplaybold.eot');
+    src: url('bpreplaybold.eot?#iefix') format('embedded-opentype'),
+         url('bpreplaybold.woff') format('woff'),
+         url('bpreplaybold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bpreplaybold_italic';
+    src: url('bpreplaybolditalics.eot');
+    src: url('bpreplaybolditalics.eot?#iefix') format('embedded-opentype'),
+         url('bpreplaybolditalics.woff') format('woff'),
+         url('bpreplaybolditalics.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bpreplayitalic';
+    src: url('bpreplayitalics.eot');
+    src: url('bpreplayitalics.eot?#iefix') format('embedded-opentype'),
+         url('bpreplayitalics.woff') format('woff'),
+         url('bpreplayitalics.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

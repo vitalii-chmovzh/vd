@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'bpreplayregular';
+    src: url('../fonts/bpreplay.eot');
+    src: url('../fonts/bpreplay.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bpreplay.woff') format('woff'),
+         url('../fonts/bpreplay.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bpreplaybold';
+    src: url('../fonts/bpreplaybold.eot');
+    src: url('../fonts/bpreplaybold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bpreplaybold.woff') format('woff'),
+         url('../fonts/bpreplaybold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bpreplaybold_italic';
+    src: url('../fonts/bpreplaybolditalics.eot');
+    src: url('../fonts/bpreplaybolditalics.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bpreplaybolditalics.woff') format('woff'),
+         url('../fonts/bpreplaybolditalics.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bpreplayitalic';
+    src: url('../fonts/bpreplayitalics.eot');
+    src: url('../fonts/bpreplayitalics.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bpreplayitalics.woff') format('woff'),
+         url('../fonts/bpreplayitalics.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Light';
+    font-style: normal;
+    font-weight: normal;
+        src: local('../fonts/HelveticaNeueCyr-Light'), 
+        url('../fonts/HelveticaNeueCyr-Light.woff') 
+    format('woff');
+}
+
+
+@font-face {
+    font-family: 'HelveticaNeueBold';
+        font-style: normal;
+        font-weight: normal;
+        src: local('../fonts/Helvetica Neue Bold'), 
+        url('../fonts/HelveticaNeueBold.woff') 
+    format('woff');
+}
+@font-face {
+    font-family: "HelveticaRegular";
+    src: url("../fonts/HelveticaRegular.eot");
+    src: url("../fonts/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaRegular.woff") format("woff"),
+    url("../fonts/HelveticaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "HelveticaLight";
+    src: url("../fonts/HelveticaLight.eot");
+    src: url("../fonts/HelveticaLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaLight.woff") format("woff"),
+    url("../fonts/HelveticaLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
